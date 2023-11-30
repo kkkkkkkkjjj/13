@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct student
+{
+ int ID;
+ char name[100];
+ double grade;
+
+};
+
+int main (int argc, char *argv[]){
+    struct student s1 = {231,"aha",4.3 };
+ 
+    system("PAUSE");
+    return 0;
+}
